@@ -127,3 +127,29 @@ You can create your unit test following these steps:
 [![Typescript Core Guidelines](./assets/unittest.png)](http://)
 
 ## Project Default Structure <a name="project-structure"></a>
+
+To start a fresh project you can clone the project using the following command:
+
+```bash
+git clone https://github.com/rsaz/python-project-template
+```
+
+Here is a proposed project default structure.
+
+[![Typescript Core Guidelines](./assets/project-structure.png)](http://)
+
+Project structure is based on the following:
+
+| Folder / File          | Description                                                                                                                                  |
+| ---------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
+| utils                  | PowerShell scripts that allows you to create, activate, deactivate and delete environments, as well as to update and create the dependencies |
+| .vscode                | Editor specific configuration                                                                                                                |
+| src                    | Project main source folder                                                                                                                   |
+| test                   | Folder that contains all application unit tests                                                                                              |
+| venv                   | Python virtual environment                                                                                                                   |
+| .pylintrc              | Configuration file for pylint static code analyzer for Python                                                                                |
+| pytest.ini             | Configuration file for pytest                                                                                                                |
+| LICENSE.txt            | Project license terms                                                                                                                        |
+| README.md              | Project details                                                                                                                              |
+| requirements.txt       | Project dependencies                                                                                                                         |
+| setup.cfg and setup.py | Project initial configuration                                                                                                                |
